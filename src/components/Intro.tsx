@@ -56,13 +56,13 @@ function Intro({}: Props) {
         className="text-2xl mb-10 mt-4 px-4 font-medium !leading-[1.5] sm:text-3xl"
       >
         <span className="text-4xl sm:text-6xl font-regular">Hi,</span>{" "}
-        <span className="font-bold">I'm Abdellah Nassim MERIDJA</span>, Computer
-        Systems Engineer, I'm also an experienced{" "}
+        <span className="font-bold">I am Abdellah Nassim MERIDJA</span>,
+        Computer Systems Engineer, I am also an experienced{" "}
         <span className="font-bold">Full Stack Developer </span>
         with <span className="font-bold">6 years</span> of experience and{" "}
         <span className="font-bold">Machine Learning Engineer</span>. Interested
         in the intersection between <i>AI</i> and <i>Blockchain</i>.{" "}
-        <span>Let's get in touch.</span>
+        <span>Let&apos;s get in touch.</span>
       </motion.h1>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
