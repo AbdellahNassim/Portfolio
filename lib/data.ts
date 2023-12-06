@@ -9,6 +9,7 @@ import simpleAuth from "../public/projects/SimpleAuth.png";
 import flappyBird from "../public/projects/FlappyBirdNeuoEvolution.png";
 import studybuddy from "../public/projects/studybud.png";
 import inflowblog from "../public/projects/Inflowblog.png";
+import flaskChatApp from "../public/projects/FlaskChatApp.png";
 export const links = [
   {
     name: "Home",
@@ -89,6 +90,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Flask/SocketIO Chat app",
+    description:
+      "This is a learning project where I built a real-time chat application using Flask, SocketIO and SQLite. Users can create and join rooms and chat about their interests",
+    tags: ["Python", "Flask", "SocketIO", "SQLite"],
+    imageUrl: flaskChatApp,
+  },
+
+  {
     title: "Neuroevolutionnary Flappy Bird",
     description:
       "This is a learning project to learn the neat-ai library, the population of flappy bird play the game and evolve to be better at it.",
@@ -98,8 +107,17 @@ export const projectsData = [
   {
     title: "Inflow Blog",
     description:
-      "My personal technical blog around computer science. Built with Next.js, Sanity CMS and deployed on Vercel",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Sanity", "Vercel"],
+      "My personal technical blog around computer science. Users can connect and see my blogs and comment on them. Built with Next.js, Sanity CMS, Firebase, NextAuth and deployed on Vercel",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Sanity",
+      "Vercel",
+      "Firebase",
+      "NextAuth",
+    ],
     imageUrl: inflowblog,
   },
   {
@@ -129,7 +147,10 @@ export const skillsData = [
   { name: "Next.js", img: "/skills/next-js.svg" },
   { name: "Flutter", img: "/skills/flutter.svg" },
   { name: "React Native", img: "/skills/expo-1.svg" },
+  { name: "Express", img: "/skills/express-109.svg" },
   { name: "Nest.js", img: "/skills/nestjs.svg" },
+  { name: "Flask", img: "/skills/flask.svg" },
+  { name: "Socket IO", img: "/skills/socket-io.svg" },
   { name: "Node.js", img: "/skills/nodejs-icon.svg" },
   { name: "Electron.js", img: "/skills/electron-1.svg" },
   { name: "Git", img: "/skills/git-icon.svg" },
@@ -139,8 +160,10 @@ export const skillsData = [
   { name: "Redux", img: "/skills/redux.svg" },
   { name: "GraphQL", img: "/skills/graphql-logo-2.svg" },
   { name: "Apollo", img: "/skills/apollo-graphql-1.svg" },
-  { name: "Express", img: "/skills/express-109.svg" },
+
   { name: "PostgreSQL", img: "/skills/postgresql.svg" },
+  { name: "SQLite", img: "/skills/sqlite.svg" },
+  { name: "Firebase", img: "/skills/firebase-1.svg" },
   { name: "Python", img: "/skills/python-5.svg" },
   { name: "Django", img: "/skills/django.svg" },
   { name: "Framer Motion", img: "/skills/framer-motion.svg" },
