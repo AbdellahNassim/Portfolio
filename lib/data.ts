@@ -10,6 +10,7 @@ import flappyBird from "../public/projects/FlappyBirdNeuoEvolution.png";
 import studybuddy from "../public/projects/studybud.png";
 import inflowblog from "../public/projects/Inflowblog.png";
 import flaskChatApp from "../public/projects/FlaskChatApp.png";
+import gemini from "../public/projects/nassim_square.jpg";
 export const links = [
   {
     name: "Home",
@@ -143,6 +144,14 @@ export const projectsData = [
     imageUrl: simpleAuth,
     githubUrl: "https://github.com/AbdellahNassim/express-jwt-auth",
     demoLink: null,
+  },
+  {
+    title: "Gemini",
+    description: "Artificial Super Intelligence",
+    tags: ["Python", "TensorFlow", "Pytorch"],
+    imageUrl: gemini,
+    githubUrl: "https://github.com/AbdellahNassim/ibn-autonomous-system-3c",
+    demoLink: "#contact",
   },
 ] as const;
 

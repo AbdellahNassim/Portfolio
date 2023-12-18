@@ -84,7 +84,7 @@ function Intro({}: Props) {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />{" "}
           </Link>
           <a
-            href="/CV.pdf"
+            href="/ABDALLAH_NASSIM_MERIDJA_CV_DEC23.pdf"
             title="Download Nassim's CV"
             download={true}
             className="border border-black/10 cursor-pointer outline-none focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-50 bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full"
