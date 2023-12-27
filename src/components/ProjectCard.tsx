@@ -42,13 +42,13 @@ function ProjectCard({ project }: Props) {
             </li>
           ))}
         </ul>
-        <div className="flex gap-1 my-4 justify-center">
+        <div className="flex gap-4 my-4 justify-center">
           {project.githubUrl && (
             <a
               target="_blank"
               rel="noreferer noopenner"
               href={project.githubUrl}
-              className="group outline-none text-sm focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-950 bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
+              className="whitespace-nowrap group outline-none text-sm focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-950 bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
             >
               <BsGithub /> Github Repo
             </a>
@@ -57,7 +57,7 @@ function ProjectCard({ project }: Props) {
             <a
               target="_blank"
               rel="noreferer noopenner"
-              className="group outline-none text-sm focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-950 bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
+              className="whitespace-nowrap group outline-none text-sm focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-950 bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full"
               href={project.demoLink}
             >
               Demo

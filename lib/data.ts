@@ -10,7 +10,7 @@ import flappyBird from "../public/projects/FlappyBirdNeuoEvolution.png";
 import studybuddy from "../public/projects/studybud.png";
 import inflowblog from "../public/projects/Inflowblog.png";
 import flaskChatApp from "../public/projects/FlaskChatApp.png";
-import gemini from "../public/projects/nassim_square.jpg";
+import amanos from "../public/projects/amanos.png";
 export const links = [
   {
     name: "Home",
@@ -91,22 +91,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Flask/SocketIO Chat app",
+    title: "AMANOS",
     description:
-      "This is a learning project where I built a real-time chat application using Flask, SocketIO and SQLite. Users can create and join rooms and chat about their interests",
-    tags: ["Python", "Flask", "SocketIO", "SQLite"],
-    imageUrl: flaskChatApp,
-    githubUrl: "https://github.com/AbdellahNassim/flask-socketio-chat",
-    demoLink: null,
-  },
-
-  {
-    title: "Neuroevolutionnary Flappy Bird",
-    description:
-      "This is a learning project to learn the neat-ai library, the population of flappy bird play the game and evolve to be better at it.",
-    tags: ["Python", "Tflearn", "Neat-AI"],
-    imageUrl: flappyBird,
-    githubUrl: "https://github.com/AbdellahNassim/flappy_bird_neat_ai",
+      "Autonomous Management and Orchestration System for next generation digital infrastructures, capable of translating human understandable intents expressed in natural language into managed network and infrastructure resources and configurations.",
+    tags: ["Python", "TensorFlow", "Pytorch", "Golang", "Kubernetes"],
+    imageUrl: amanos,
+    githubUrl: "https://github.com/AbdellahNassim/ibn-autonomous-system-3c",
     demoLink: null,
   },
   {
@@ -128,6 +118,26 @@ export const projectsData = [
     githubUrl: null,
   },
   {
+    title: "Flask/SocketIO Chat app",
+    description:
+      "This is a learning project where I built a real-time chat application using Flask, SocketIO and SQLite. Users can create and join rooms and chat about their interests",
+    tags: ["Python", "Flask", "SocketIO", "SQLite"],
+    imageUrl: flaskChatApp,
+    githubUrl: "https://github.com/AbdellahNassim/flask-socketio-chat",
+    demoLink: null,
+  },
+
+  {
+    title: "Neuroevolutionnary Flappy Bird",
+    description:
+      "This is a learning project to learn the neat-ai library, the population of flappy bird play the game and evolve to be better at it.",
+    tags: ["Python", "Tflearn", "Neat-AI"],
+    imageUrl: flappyBird,
+    githubUrl: "https://github.com/AbdellahNassim/flappy_bird_neat_ai",
+    demoLink: null,
+  },
+
+  {
     title: "Study buddy App",
     description:
       "A django app for room discussions, users can register and login as well as create rooms, topics, message and chat about their interests.",
@@ -144,14 +154,6 @@ export const projectsData = [
     imageUrl: simpleAuth,
     githubUrl: "https://github.com/AbdellahNassim/express-jwt-auth",
     demoLink: null,
-  },
-  {
-    title: "Gemini",
-    description: "Artificial Super Intelligence",
-    tags: ["Python", "TensorFlow", "Pytorch"],
-    imageUrl: gemini,
-    githubUrl: "https://github.com/AbdellahNassim/ibn-autonomous-system-3c",
-    demoLink: "#contact",
   },
 ] as const;
 
