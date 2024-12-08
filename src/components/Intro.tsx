@@ -59,7 +59,7 @@ function Intro({}: Props) {
         <span className="font-bold">I am Abdellah Nassim MERIDJA</span>,
         Computer Systems Engineer, I am also an experienced{" "}
         <span className="font-bold">Full Stack Developer </span>
-        with <span className="font-bold">6 years</span> of experience and{" "}
+        with <span className="font-bold">4 years</span> of experience and{" "}
         <span className="font-bold">Machine Learning Engineer</span>. Interested
         in the intersection between <i>AI</i> and <i>Blockchain</i>.{" "}
         <span>Let&apos;s get in touch.</span>
@@ -84,7 +84,7 @@ function Intro({}: Props) {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />{" "}
           </Link>
           <a
-            href="/ABDALLAH_NASSIM_MERIDJA_CV_DEC23.pdf"
+            href="/Abdellah_Nassim_MERIDJA_ATS_CV_December2024.pdf"
             title="Download Nassim's CV"
             download={true}
             className="border border-black/10 cursor-pointer outline-none focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-50 bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full"

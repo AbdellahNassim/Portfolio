@@ -2,15 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
-import simpleAuth from "../public/projects/SimpleAuth.png";
-import flappyBird from "../public/projects/FlappyBirdNeuoEvolution.png";
-import studybuddy from "../public/projects/studybud.png";
 import inflowblog from "../public/projects/Inflowblog.png";
-import flaskChatApp from "../public/projects/FlaskChatApp.png";
 import amanos from "../public/projects/amanos.png";
+import rahihakmaEntreprise from "../public/projects/rahiHakmaEntreprise.png";
+import azybia from "../public/projects/azybia.png";
+
 export const links = [
   {
     name: "Home",
@@ -80,16 +76,79 @@ export const experiencesData = [
     date: "2023",
   },
   {
+    title: "Full-Stack Engineer",
+    location: "Edraak Technologies, Onsite, Algiers",
+    description:
+      "I worked as a Full-Stack Engineer for 3 months. I worked on developing an integration between the company website and its CRM using Odoo as well as developing backend services for client solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "Full-Stack Engineer",
+    location: "Rahi-Hakma, Hybrid, Algiers",
+    description:
+      "I worked as a Full-Stack Engineer for 7 months, where I worked mainly on the Entreprise product version of the Rahi Hakma service for Hotel reservations, I developed the backend fully in Nest.js and MySQL as well as the frontend in Next.js and the Admin Panel in Next.js.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
+    title: "Senior Full-Stack Engineer",
+    location: "Azybia, Remote, Canada",
+    description:
+      "Currently I am working with Azybia a Canadian startup in the property rental sector, where I worked mainly on the backend by integrating many features and services for the platform like payments, tenant screening, digital signatures and more in Nest.js, as well as the frontend in Next.js and the Admin Panel in Next.js.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+  {
     title: "Freelance Engineer",
     location: "Algiers, Algeria",
     description:
-      "I'm now a full-stack engineer working as a freelancer. My stack includes React, Next.js, Nest.js, TypeScript, Tailwind, and MongoDB, I also work as a Machine Learning freelancer using Tensorflow and Pytorch. I also work as an Instructor in both Full-Stack Development and Machine Learning. I'm open to full-time opportunities.",
+      "In conjunction with my work I also work as a Freelance Full-Stack Engineer/Blockchain Engineer and AI Engineer. My stack includes React, Next.js, Nest.js, TypeScript, Tailwind, Postgres/MongoDB, Solidity, Rust, and Python.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Azybia Rental Platform",
+    description:
+      "A property rental SaaS product for users to book and rent properties. This project includes a Backend written in Nest.JS, a Client application written in Next.js as well as an Admin Dashboard written in Next.js.",
+    tags: [
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Shadcn",
+      "Next.js",
+      "Nest.js",
+      "Postgres",
+      "PostGIS",
+      "Redis",
+      "TypeORM",
+      "Stripe",
+      "Docuseal",
+      "Certn",
+    ],
+    imageUrl: azybia,
+    demoLink: "https://www.azybia.com/",
+  },
+  {
+    title: "Rahi Hakma Entreprise",
+    description:
+      "A Web SaaS product for entreprises and organizations to manage their reservations in hotels and where they can book hotels at lower prices thanks the the Rahi Hakma service, This project includes a Backend written in Nest.JS, a Client application written in Next.js as well as an Admin Dashboard written in Next.js. I deployed this system on a private VPS.",
+    tags: [
+      "React",
+      "Tailwind",
+      "TypeScript",
+      "Next.js",
+      "Nest.js",
+      "MySQL",
+      "TypeORM",
+      "Puppeteer",
+    ],
+    imageUrl: rahihakmaEntreprise,
+    demoLink: "https://entreprise.rahihakma.dz/",
+  },
   {
     title: "AMANOS",
     description:
@@ -117,44 +176,45 @@ export const projectsData = [
     demoLink: "https://inflowblog.vercel.app/",
     githubUrl: null,
   },
-  {
-    title: "Flask/SocketIO Chat app",
-    description:
-      "This is a learning project where I built a real-time chat application using Flask, SocketIO and SQLite. Users can create and join rooms and chat about their interests",
-    tags: ["Python", "Flask", "SocketIO", "SQLite"],
-    imageUrl: flaskChatApp,
-    githubUrl: "https://github.com/AbdellahNassim/flask-socketio-chat",
-    demoLink: null,
-  },
 
-  {
-    title: "Neuroevolutionnary Flappy Bird",
-    description:
-      "This is a learning project to learn the neat-ai library, the population of flappy bird play the game and evolve to be better at it.",
-    tags: ["Python", "Tflearn", "Neat-AI"],
-    imageUrl: flappyBird,
-    githubUrl: "https://github.com/AbdellahNassim/flappy_bird_neat_ai",
-    demoLink: null,
-  },
+  // {
+  //   title: "Flask/SocketIO Chat app",
+  //   description:
+  //     "This is a learning project where I built a real-time chat application using Flask, SocketIO and SQLite. Users can create and join rooms and chat about their interests",
+  //   tags: ["Python", "Flask", "SocketIO", "SQLite"],
+  //   imageUrl: flaskChatApp,
+  //   githubUrl: "https://github.com/AbdellahNassim/flask-socketio-chat",
+  //   demoLink: null,
+  // },
 
-  {
-    title: "Study buddy App",
-    description:
-      "A django app for room discussions, users can register and login as well as create rooms, topics, message and chat about their interests.",
-    tags: ["Django", "Django Rest Framework", "PostgreSQL"],
-    imageUrl: studybuddy,
-    githubUrl: "https://github.com/AbdellahNassim/django_studybuddy",
-    demoLink: null,
-  },
-  {
-    title: "MERN Simple Auth",
-    description:
-      "A boilerplate application for developers to use in order to implement Authentication and http-only tokens as well as Authorization, serves as a basis for more advanced projects",
-    tags: ["React", "Node.js", "Express.js", "MongoDB"],
-    imageUrl: simpleAuth,
-    githubUrl: "https://github.com/AbdellahNassim/express-jwt-auth",
-    demoLink: null,
-  },
+  // {
+  //   title: "Neuroevolutionnary Flappy Bird",
+  //   description:
+  //     "This is a learning project to learn the neat-ai library, the population of flappy bird play the game and evolve to be better at it.",
+  //   tags: ["Python", "Tflearn", "Neat-AI"],
+  //   imageUrl: flappyBird,
+  //   githubUrl: "https://github.com/AbdellahNassim/flappy_bird_neat_ai",
+  //   demoLink: null,
+  // },
+
+  // {
+  //   title: "Study buddy App",
+  //   description:
+  //     "A django app for room discussions, users can register and login as well as create rooms, topics, message and chat about their interests.",
+  //   tags: ["Django", "Django Rest Framework", "PostgreSQL"],
+  //   imageUrl: studybuddy,
+  //   githubUrl: "https://github.com/AbdellahNassim/django_studybuddy",
+  //   demoLink: null,
+  // },
+  // {
+  //   title: "MERN Simple Auth",
+  //   description:
+  //     "A boilerplate application for developers to use in order to implement Authentication and http-only tokens as well as Authorization, serves as a basis for more advanced projects",
+  //   tags: ["React", "Node.js", "Express.js", "MongoDB"],
+  //   imageUrl: simpleAuth,
+  //   githubUrl: "https://github.com/AbdellahNassim/express-jwt-auth",
+  //   demoLink: null,
+  // },
 ] as const;
 
 export const skillsData = [
@@ -178,6 +238,8 @@ export const skillsData = [
   { name: "Tailwind", img: "/skills/tailwindcss.svg" },
   { name: "Prisma", img: "/skills/prisma-3.svg" },
   { name: "MongoDB", img: "/skills/mongodb-icon-1.svg" },
+  { name: "Solidity", img: "/skills/Solidity.svg" },
+  { name: "Rust", img: "/skills/Rust.svg" },
   { name: "Redux", img: "/skills/redux.svg" },
   { name: "GraphQL", img: "/skills/graphql-logo-2.svg" },
   { name: "Apollo", img: "/skills/apollo-graphql-1.svg" },

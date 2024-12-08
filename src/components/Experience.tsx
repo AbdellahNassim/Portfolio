@@ -15,9 +15,9 @@ function Experience({}: Props) {
     <section
       ref={ref}
       id="experience"
-      className="relative mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28"
+      className="relative mb-28 max-w-[50rem] text-center  sm:mb-0 scroll-mt-28"
     >
-      <div
+      {/* <div
         className="bg-[#fbe2e3] dark:bg-[#946263] -z-10 absolute top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]
           sm:w-[68.75rem]"
       ></div>
@@ -32,7 +32,7 @@ function Experience({}: Props) {
       <div
         className="bg-[#d7e9fb] dark:bg-[#676394] -z-10 absolute top-[60rem] left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem]
           sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
-      ></div>
+      ></div> */}
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline animate>
         {experiencesData.map((experience, index) => (
@@ -66,7 +66,7 @@ function Experience({}: Props) {
             <p className="vertical-timeline-element-subtitle font-normal !mt-0">
               {experience.location}
             </p>
-            <p className="!mt-0 font-normal text-gray-700">
+            <p className="!mt-0 font-normal text-gray-700 dark:text-gray-300">
               {experience.description}
             </p>
           </VerticalTimelineElement>
