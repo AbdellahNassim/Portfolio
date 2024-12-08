@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import inflowblog from "../public/projects/Inflowblog.png";
 import amanos from "../public/projects/amanos.png";
-import rahihakmaEntreprise from "../public/projects/rahiHakmaEntreprise.png";
+import rahihakmaEntreprise from "../public/projects/rahihakmaEntreprise.png";
 import azybia from "../public/projects/azybia.png";
 
 export const links = [
@@ -131,6 +131,7 @@ export const projectsData = [
     ],
     imageUrl: azybia,
     demoLink: "https://www.azybia.com/",
+    githubUrl: null,
   },
   {
     title: "Rahi Hakma Entreprise",
@@ -148,6 +149,7 @@ export const projectsData = [
     ],
     imageUrl: rahihakmaEntreprise,
     demoLink: "https://entreprise.rahihakma.dz/",
+    githubUrl: null,
   },
   {
     title: "AMANOS",
