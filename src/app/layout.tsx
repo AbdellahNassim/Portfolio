@@ -14,6 +14,18 @@ export const metadata: Metadata = {
   title: "Abdellah Nassim MERIDJA - Software Engineer",
   description:
     "The personal website of Abdellah Nassim MERIDJA, Computer Systems Engineer and Software Engineer.",
+  openGraph: {
+    title: "Abdellah Nassim MERIDJA - Software Engineer",
+    description:
+      "The personal website of Abdellah Nassim MERIDJA, Computer Systems Engineer and Software Engineer.",
+    siteName: "Abdellah Nassim MERIDJA - Software Engineer",
+    locale: "en-US",
+    type: "website",
+    url: "https://abdallahnassim.dev/",
+    images: [
+      "https://abdallahnassim.dev/_next/image?url=%2Fnassim_square.jpg&w=384&q=100"
+    ]
+  }
 };
 
 export default function RootLayout({
