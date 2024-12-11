@@ -1,6 +1,12 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://abdallahnassim.dev</loc>
+    <image:image>
+      <image:loc>https://abdallahnassim.dev/_next/image?url=%2Fnassim_square.jpg&amp;w=384&amp;q=100</image:loc>
+      <image:caption>Abdellah Nassim Meridja</image:caption>
+      <image:geo_location>Algeria</image:geo_location>
+      <image:title>Abdellah Nassim Meridja</image:title>
+    </image:image>
     <lastmod>2024-12-10T20:40:44.548Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
