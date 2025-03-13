@@ -30,7 +30,7 @@ function Intro({}: Props) {
               width={300}
               height={300}
               className="rounded-full w-32 h-32 object-cover shadow-md border-[0.35rem] border-white"
-              src="/nassim_square.jpg"
+              src="/black_tone_image.jpg"
               alt="Nassim Profile"
               priority
               quality="100"
