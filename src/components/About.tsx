@@ -38,7 +38,7 @@ function About({}: Props) {
         As a <span className="font-bold">freelance consultant</span>, I offer
         services in Web, Mobile, System, and Blockchain Development, bringing
         ideas to life through cutting-edge technology. I also share insights
-        through content creation, guiding developers and tech enthusiasts. Let's
+        through content creation, guiding developers and tech enthusiasts. Let&apos;s
         shape the future together.
       </p>
     </motion.section>
