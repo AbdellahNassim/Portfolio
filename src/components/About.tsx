@@ -25,37 +25,21 @@ function About({}: Props) {
 
       <SectionHeading>About Me</SectionHeading>
       <p className="text-md sm:text-lg mb-3">
-        I am a <span className="font-bold">Computer Systems Engineer</span> with
-        a passion for technology and innovation. With over{" "}
-        <span className="font-bold">4 years of experience</span> in Full Stack
-        Web development using the MERN Stack, Next.js and Nest.js, I have honed
-        my skills in creating robust and dynamic web applications. Beyond web
-        development, I am also a
-        <span className="font-bold"> Machine Learning Engineer </span> and{" "}
-        <span className="font-bold">Blockchain Engineer</span>, delving into the
-        exciting world of artificial intelligence & blockchain. My enthusiasm
-        extends to emerging technologies, particularly the intersection of
-        Blockchain and AI, where I find endless possibilities for the future.
+        I am a <span className="font-bold">Software Engineer</span> specializing
+        in Full Stack Development, AI, and Blockchain. With expertise in{" "}
+        <span className="font-bold">Next.js, Nest.js, and Golang</span>, I build
+        production-grade applications that merge efficiency with scalability. My
+        work extends beyond traditional development into the realm of{" "}
+        <span className="font-bold">AI-driven cybersecurity</span> and
+        decentralized systems, where I explore innovative solutions at the
+        intersection of trust and intelligence.
       </p>
       <p className="text-md sm:text-lg">
-        As a versatile professional, I am{" "}
-        <span className=" font-bold">open to freelance work</span> in a wide
-        range of areas, including Web Development, Mobile Development, System
-        Development, Desktop Development, AI development as well as Blockchain
-        and Web3 development. Whether you need a stunning website, a
-        cutting-edge mobile app, or a custom software solution, I am here to
-        bring your ideas to life. Additionally, I share my knowledge and
-        insights as a blogger, contributing technology-related content to my
-        personal blog,{" "}
-        <a
-          href="https://inflowblog.vercel.app"
-          target="_blank"
-          rel="noreferer noopenner"
-          className="font-bold cursor-pointer hover:underline hover:text-gray-700 transition "
-        >
-          Inflow blog
-        </a>{" "}
-        Join me on this journey of exploration and innovation in the tech world.
+        As a <span className="font-bold">freelance consultant</span>, I offer
+        services in Web, Mobile, System, and Blockchain Development, bringing
+        ideas to life through cutting-edge technology. I also share insights
+        through content creation, guiding developers and tech enthusiasts. Let's
+        shape the future together.
       </p>
     </motion.section>
   );

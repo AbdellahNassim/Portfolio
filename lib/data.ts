@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import inflowblog from "../public/projects/Inflowblog.png";
 import amanos from "../public/projects/amanos.png";
 import rahihakmaEntreprise from "../public/projects/rahihakmaEntreprise.png";
-import azybia from "../public/projects/azybia.png";
+import houseloc from "../public/projects/HouseLoc.png";
 
 export const links = [
   {
@@ -92,10 +92,10 @@ export const experiencesData = [
     date: "2024",
   },
   {
-    title: "Senior Full-Stack Engineer",
-    location: "Azybia, Remote, Canada",
+    title: "Auto-Entrepreneur",
+    location: "Algiers, Remote, Canada",
     description:
-      "Currently I am working with Azybia a Canadian startup in the property rental sector, where I worked mainly on the backend by integrating many features and services for the platform like payments, tenant screening, digital signatures and more in Nest.js, as well as the frontend in Next.js and the Admin Panel in Next.js.",
+      "Currently I am working Solo as an Auto-Entrepreneur, I am working on multiple projects as a Full-Stack Engineer, Blockchain Engineer and AI Engineer. My stack includes React, Next.js, Nest.js, TypeScript, Tailwind, Postgres/MongoDB, Solidity, Rust, and Python.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
@@ -111,7 +111,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Azybia Rental Platform",
+    title: "HouseLoc Rental Platform",
     description:
       "A property rental SaaS product for users to book and rent properties. This project includes a Backend written in Nest.JS, a Client application written in Next.js as well as an Admin Dashboard written in Next.js.",
     tags: [
@@ -129,8 +129,8 @@ export const projectsData = [
       "Docuseal",
       "Certn",
     ],
-    imageUrl: azybia,
-    demoLink: "https://www.azybia.com/",
+    imageUrl: houseloc,
+    demoLink: "https://houseloc.vercel.app/",
     githubUrl: null,
   },
   {

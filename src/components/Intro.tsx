@@ -30,7 +30,7 @@ function Intro({}: Props) {
               width={300}
               height={300}
               className="rounded-full w-32 h-32 object-cover shadow-md border-[0.35rem] border-white"
-              src="/black_tone_image.jpg"
+              src="/me.webp"
               alt="Nassim Profile"
               priority
               quality="100"
@@ -57,12 +57,8 @@ function Intro({}: Props) {
       >
         <span className="text-4xl sm:text-6xl font-regular">Hi,</span>{" "}
         <span className="font-bold">I am Abdellah Nassim MERIDJA</span>,
-        Computer Systems Engineer, I am also an experienced{" "}
-        <span className="font-bold">Full Stack Developer </span>
-        with <span className="font-bold">4 years</span> of experience and{" "}
-        <span className="font-bold">Machine Learning Engineer</span>. Interested
-        in the intersection between <i>AI</i> and <i>Blockchain</i>.{" "}
-        <span>Let&apos;s get in touch.</span>
+        Computer Systems Engineer Expert in
+        AI & Blockchain.
       </motion.h1>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -83,19 +79,11 @@ function Intro({}: Props) {
             Contact me{" "}
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />{" "}
           </Link>
-          <a
-            href="/Abdellah_Nassim_MERIDJA_ATS_CV_December2024.pdf"
-            title="Download Nassim's CV"
-            download={true}
-            className="border border-black/10 cursor-pointer outline-none focus:scale-110 hover:scale-110 active:scale-105 transition hover:bg-gray-50 bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full"
-          >
-            Download CV <HiDownload />
-          </a>
         </div>
 
         <div className="flex gap-2 justify-center">
           <a
-            href="https://www.linkedin.com/in/meridja-nassim/"
+            href="https://www.linkedin.com/in/abdellah-nassim-meridja-433998357"
             target="_blank"
             title="Nassim's Linkedin"
             rel="noreferer noopener"
@@ -112,7 +100,7 @@ function Intro({}: Props) {
           >
             <BsGithub />
           </a>
-          <a
+          {/* <a
             href="https://www.upwork.com/freelancers/~01049fd4f1e6d37279"
             target="_blank"
             title="Nassim's Upwork"
@@ -130,7 +118,7 @@ function Intro({}: Props) {
                 d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076l.008-.042c.207-1.143.849-3.06 2.839-3.06a2.705 2.705 0 0 1 2.703 2.703a2.707 2.707 0 0 1-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366c-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112a2.551 2.551 0 0 1-2.547 2.548a2.55 2.55 0 0 1-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303c2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109c3 0 5.439-2.452 5.439-5.45c0-3-2.439-5.439-5.439-5.439z"
               />
             </svg>
-          </a>
+          </a> */}
           <a
             href="https://inflowblog.vercel.app/"
             target="_blank"
