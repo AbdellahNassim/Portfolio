@@ -79,7 +79,7 @@ function Intro({}: Props) {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />{" "}
           </Link>
           <a
-            href="/Abdellah_Nassim_MERIDJA_ATS_CV_April2025.pdf"
+            href="/Abdellah_Nassim_MERIDJA_ATS_CV_Sept2026.pdf"
             target="_blank"
             title="Download Nassim's CV"
             rel="noreferer noopener"

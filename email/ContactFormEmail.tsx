@@ -14,9 +14,16 @@ import { Tailwind } from "@react-email/tailwind";
 type Props = {
   message: string;
   senderEmail: string;
+  senderName?: string;
+  projectType?: string;
 };
 
-function ContactFormEmail({ message, senderEmail }: Props) {
+function ContactFormEmail({
+  message,
+  senderEmail,
+  senderName,
+  projectType,
+}: Props) {
   return (
     <Html>
       <Head />
@@ -28,9 +35,11 @@ function ContactFormEmail({ message, senderEmail }: Props) {
               <Heading className="leading-tight">
                 You received the following message from Personal Website
               </Heading>
+              {senderName ? <Text>From: {senderName}</Text> : null}
+              {projectType ? <Text>Project type: {projectType}</Text> : null}
               <Text>{message}</Text>
               <Hr></Hr>
-              <Text>The sender's email is: {senderEmail}</Text>
+              <Text>The sender&apos;s email is: {senderEmail}</Text>
             </Section>
           </Container>
         </Body>

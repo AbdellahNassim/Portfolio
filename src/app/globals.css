@@ -11,3 +11,57 @@
 html.dark {
   --line-color: rgba(255, 255, 255, 0.2) !important;
 }
+
+.site-root {
+  font-family: "Open Sans", system-ui, sans-serif;
+}
+
+html.new-route,
+html.new-route body {
+  background: #070708;
+  color: #f4f1ea;
+}
+
+.new-root {
+  --bg: #070708;
+  --bg-elevated: #111113;
+  --fg: #f4f1ea;
+  --muted: #8a857a;
+  --line: rgba(244, 241, 234, 0.12);
+  --accent: #c4a574;
+  --accent-hover: #d4b889;
+  --accent-dim: rgba(196, 165, 116, 0.14);
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100vh;
+  color-scheme: dark;
+  font-family: "Geist", ui-sans-serif, system-ui, sans-serif;
+}
+
+.new-root ::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.new-root :focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.new-root h1,
+.new-root h2,
+.new-root h3,
+.new-root .font-serif {
+  font-family: "Instrument Serif", ui-serif, Georgia, "Times New Roman", serif;
+}
+
+.new-container {
+  width: min(70rem, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .new-container {
+    width: min(70rem, calc(100% - 4rem));
+  }
+}
